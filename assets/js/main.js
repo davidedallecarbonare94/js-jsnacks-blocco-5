@@ -147,4 +147,3 @@ for (var j = 0; j < zucchineDaOrto.length; j++){
 console.log(zucchinePiccole);
 console.log(zucchineGrandi);
 
-
