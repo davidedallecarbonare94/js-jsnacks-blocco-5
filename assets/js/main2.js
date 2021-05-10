@@ -49,3 +49,18 @@ un array e due numeri
 //(“a” più piccolo di “b” e “b” grande al massimo quanto il numero di elementi dell’array).
 La funzione ritornerà un nuovo array con i valori che hanno la posizione compresa tra “a” e “b”
 */
+/* var min = 1;
+var max = 5;
+var array = [1, 2, 3, 4, 5];
+ */
+function createNewArray(array, min, max) {
+    combinedArray = [];
+    while (array.length > min && array.length < max) {
+        for (var i = 0; i < array.length; i++){
+            var arrayEl = array[i];
+            console.log(array[i]);
+            arrayEl.push(combinedArray);
+        }
+    } return combinedArray
+}
+createNewArray([1, 2, 3, 4, 5], 1, 5)
